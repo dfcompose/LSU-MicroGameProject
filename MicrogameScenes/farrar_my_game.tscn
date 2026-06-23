@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://cderjrta3u0i1"]
+
+[ext_resource type="Script" uid="uid://bfopqrtv5jc0l" path="res://Farrar-Microgame/my_game.gd" id="1_bclle"]
+[ext_resource type="PackedScene" uid="uid://byke8p77i82no" path="res://GameTimer/game_timer.tscn" id="2_0d8ci"]
+
+[node name="MyGame" type="Node2D" unique_id=1388638931]
+script = ExtResource("1_bclle")
+
+[node name="GameTimer" parent="." unique_id=2077027657 instance=ExtResource("2_0d8ci")]
+offset_left = 268.0
+offset_top = 91.0
+offset_right = 268.0
+offset_bottom = 91.0
+instruction_text = "Survive!"
